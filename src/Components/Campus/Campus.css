@@ -1,0 +1,30 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 22%;
+    min-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.campus h3 {
+    color: #212EA0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.campus h2 {
+    font-size: 32px;
+    color: #000F38;
+    margin-bottom: 40px;
+}
